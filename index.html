@@ -1,22 +1,55 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #profile-image {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #main-content {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello World</h1>
-<h2>Este é um exemplo de uso de tags</h2>
-<h3>Veja abaixo algumas tags em ação</h3>
+    <div id="header">
+        <h1>Meu Currículo</h1>
+    </div>
+    <div id="main-content">
+        <h2>Dados Pessoais</h2>
+        <img id="profile-image" src="imagem.jpg" alt="Foto de Perfil">
+        <p>Nome: Seu Nome</p>
+        <p>E-mail: seuemail@example.com</p>
+        <p>Telefone: (123) 456-7890</p>
 
-<p>CABECALHO</p>
+        <h2>Experiência Profissional</h2>
+        <p>Cargo: Nome do Cargo</p>
+        <p>Empresa: Nome da Empresa</p>
+        <p>Descrição: Descrição das responsabilidades e realizações no cargo.</p>
 
-<h4>Exemplo de Subtitulo Nivel</h4>
-<h5>Exemplo de Subtitulo Nivel</h5>
-<h6>Exemplo de Subtitulo Nivel</h6>
-
-<a href="https://github.com/">Visite o site exemplo</a>
-    
+        <h2>Formação Acadêmica</h2>
+        <p>Curso: Nome do Curso</p>
+        <p>Instituição: Nome da Instituição</p>
+        <p>Ano de Conclusão: 20XX</p>
+    </div>
 </body>
 </html>
